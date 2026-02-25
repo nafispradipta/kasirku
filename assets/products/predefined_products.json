@@ -1,0 +1,13 @@
+{
+  "categories": [
+    {"name": "Mie Instan", "color": "#FF9800"},
+    {"name": "Kopi & Minuman", "color": "#795548"},
+    {"name": "Snack", "color": "#9C27B0"},
+    {"name": "Minuman Ringan", "color": "#2196F3"},
+    {"name": "Sabun & Sampo", "color": "#4CAF50"},
+    {"name": "Obat-obatan", "color": "#F44336"},
+    {"name": "Bahan Pokok", "color": "#FFEB3B"},
+    {"name": "Lainnya", "color": "#607D8B"}
+  ],
+  "products": []
+}

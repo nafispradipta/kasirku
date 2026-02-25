@@ -1,0 +1,54 @@
+name: kasirku
+description: "Aplikasi Kasir Untuk UMKM Warung Klontong"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  
+  # Database
+  sqflite: ^2.3.0
+  sqlite3_flutter_libs: ^0.5.18
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  
+  # Utils
+  intl: ^0.18.1
+  uuid: ^4.2.2
+  collection: ^1.18.0
+  
+  # UI
+  google_fonts: ^6.1.0
+  
+  # File handling
+  file_picker: ^6.1.1
+  share_plus: ^7.2.1
+  excel: ^3.0.0
+  
+  # Barcode
+  mobile_scanner: ^4.0.1
+  
+  # Image
+  image_picker: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  drift_dev: ^2.14.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/products/
+    - assets/images/
